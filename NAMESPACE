@@ -3,3 +3,5 @@
 export(fdata)
 export(read.example)
 export(read.file)
+
+importFrom("utils", "read.table")
