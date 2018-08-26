@@ -9,7 +9,6 @@ r_check_args: --no-vignettes   # takes too long
 
 r:
 - 3.3
-- release
 
 
 env:
