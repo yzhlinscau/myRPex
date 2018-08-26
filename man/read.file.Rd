@@ -29,7 +29,7 @@ this returned a data.frame.
 \examples{
 library(myRPex)
 read.example(package = "myRPex", setpath = TRUE)
-df<-myRPex::read.file(file="fm.csv", header=T)
+df<-myRPex::read.file(file="fm.csv", header=TRUE)
 names(df)
 
 }
