@@ -3,6 +3,9 @@ cache: packages
 sudo: true
 dist: trusty
 
+r_build_args: --no-build-vignettes
+
+r_check_args: --no-vignettes   # takes too long
 
 r:
 - 3.3
