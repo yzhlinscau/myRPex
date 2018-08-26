@@ -2,7 +2,7 @@
 % Please edit documentation in R/read.file.R
 \name{read.file}
 \alias{read.file}
-\title{Count error for h2 and corr.}
+\title{read files}
 \usage{
 read.file(file, header = TRUE, sep = ",", dec = ".", ...)
 }
@@ -21,11 +21,10 @@ read.file(file, header = TRUE, sep = ",", dec = ".", ...)
 this returned a data.frame.
 }
 \description{
-\code{read.file} This function counts standard error(se) for heritability(h2) and
-corr value and also outputs significent level for corr value in asreml and breedR package.
+\code{read.file} This function read files similar to asreml.read.table().
 }
 \details{
-Count error for h2 and corr value, also outputs significent level.
+ files similar to asreml.read.table().
 }
 \examples{
 library(myRPex)
