@@ -19,7 +19,7 @@
 #' myRPex website:https://github.com/yzhlinscau/myRPex
 #' @examples
 #' library(myRPex)
-#' read.example(package = "AAFMM", setpath = TRUE)
+#' read.example(package = "myRPex", setpath = TRUE)
 #' df<-myRPex::read.file(file="fm.csv", header=T)
 #' names(df)
 #'
