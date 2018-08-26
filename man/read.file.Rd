@@ -29,7 +29,7 @@ Count error for h2 and corr value, also outputs significent level.
 }
 \examples{
 library(myRPex)
-read.example(package = "AAFMM", setpath = TRUE)
+read.example(package = "myRPex", setpath = TRUE)
 df<-myRPex::read.file(file="fm.csv", header=T)
 names(df)
 
