@@ -1,11 +1,10 @@
-#' @title Count error for h2 and corr.
+#' @title read files.
 #'
 #' @description
-#' \code{read.file} This function counts standard error(se) for heritability(h2) and
-#' corr value and also outputs significent level for corr value in asreml and breedR package.
+#' \code{read.file} This function read files similar to asreml.read.table().
 #'
 #' @details
-#' Count error for h2 and corr value, also outputs significent level.
+#' Read files similar to asreml.read.table().
 #' @aliases read.file
 #' @param file	 File name.
 #' @param header	 Whether file has header for varialbes, TRUE(default).
