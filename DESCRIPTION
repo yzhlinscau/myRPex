@@ -1,0 +1,16 @@
+Package: myRPex
+Type: Package
+Title: Just R package example
+Version: 0.1.0
+Authors@R: person("Yuanzhen", "Lin", email = "yzhlinscau@163.com", role = c("cre", "aut"))
+Maintainer: Yuanzhen Lin <yzhlinscau@163.com>
+URL: http://github.com/yzhlinscau/myRPex
+BugReports: http://github.com/yzhlinscau/myRPex/issues
+Depends: R (>= 3.3.0)
+Description: Just show example to build R package.
+Encoding: UTF-8
+License: GPL (>= 2)
+LazyData: yes
+NeedsCompilation: no
+Repository: CRAN
+RoxygenNote: 6.0.1
